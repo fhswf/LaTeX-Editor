@@ -1,13 +1,13 @@
 # LaTeX-Editor
 
-Vorlagen im Online-Editor bearbeiten und kompilieren:
+Edit and compile templates using the online editor:
 
 * **Abschlussarbeit:** [fhswf.github.io/LaTeX-Editor/Abschlussarbeit](https://fhswf.github.io/LaTeX-Editor/Abschlussarbeit)
 * **Anschreiben:** [fhswf.github.io/LaTeX-Editor/Anschreiben](https://fhswf.github.io/LaTeX-Editor/Anschreiben)
 * **Ausarbeitung:** [fhswf.github.io/LaTeX-Editor/Ausarbeitung](https://fhswf.github.io/LaTeX-Editor/Ausarbeitung)
 * **Konferenzseminar:** [fhswf.github.io/LaTeX-Editor/Konferenzseminar](https://fhswf.github.io/LaTeX-Editor/Konferenzseminar)
 
-Anleitung für die lokale Installation von LaTeX auf dem PC: [LaTeX-Install.md](./LaTeX-Install.md)
+See `LaTeX-Install` for installing LaTeX locally on the PC.
 
 ### About
 
