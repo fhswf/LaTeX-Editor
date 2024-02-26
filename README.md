@@ -6,6 +6,7 @@ Edit and compile templates using the online editor:
 * **Anschreiben:** [fhswf.github.io/LaTeX-Editor/Anschreiben](https://fhswf.github.io/LaTeX-Editor/Anschreiben)
 * **Ausarbeitung:** [fhswf.github.io/LaTeX-Editor/Ausarbeitung](https://fhswf.github.io/LaTeX-Editor/Ausarbeitung)
 * **Konferenzseminar:** [fhswf.github.io/LaTeX-Editor/Konferenzseminar](https://fhswf.github.io/LaTeX-Editor/Konferenzseminar)
+* **Poster:** [fhswf.github.io/LaTeX-Editor/Poster](https://fhswf.github.io/LaTeX-Editor/Poster)
 
 See `LaTeX-Install` for installing LaTeX locally on the PC.
 
