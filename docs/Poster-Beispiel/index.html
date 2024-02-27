@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.9.6/ace.js"></script>
+    <script src="PdfTeXEngine.js"></script>
+    <script src="config.js"></script>
+    <script src="texliveserver.js"></script>
+    <script src="form.js"></script>
+    <script src="upload.js"></script>
+    <script type="module" src="download.js"></script>
+    <title>LaTeX-Editor</title>
+</head>
+<body>
+    <!-- heading -->
+    <div class="content">
+        <h1 id="title">LaTeX-Editor</h1>
+        <h2 id="templatename"></h2>
+    </div>
+
+    <!-- placeholders input -->
+    <div class="content" id="form">
+        <div><script>print_form();</script></div>
+    </div>
+
+    <!-- main section -->
+    <div class="content" id="latex">
+
+        <!-- editor -->
+        <div id="editor"></div>
+        
+        <!-- menu -->
+        <div id="menu">
+            <button type="button" onclick="compile()" id="compilebutton" class="button" disabled>Initializing ...</button>
+            <span class="spacer"></span>
+            <button type="button" onclick="open_upload_form()" class="button">Add files</button>
+            <button type="button" onclick="open_import_form()" class="button">Import</button>
+            <button type="button" onclick="download()" class="button">Export</button>
+        </div>
+
+        <!-- file upload -->
+        <div id="uploadform">
+            <h4>Add files</h4>
+            <p>Add files such as images or tex files to use them in the document.</p>
+            <form enctype="multipart/form-data">
+                <input type="file" id="fileupload" multiple><br>
+                <button type="button" onclick="upload()" class="uploadbutton">Submit</button>
+            </form>
+            <button type="button" onclick="close_forms()" class="closebutton">Cancel</button>
+        </div>
+
+        <!-- project import -->
+        <div id="importform">
+            <h4>Import a project</h4>
+            <p>Import an existing project by selecting all associated files.</p>
+            <form enctype="multipart/form-data">
+                <input type="file" id="projectimport" accept="image/*,.tex,.bib,.sty,.cls,.pdf" multiple><br>
+                <button type="button" onclick="import_project()" class="uploadbutton">Submit</button>
+            </form>
+            <button type="button" onclick="close_forms()" class="closebutton">Cancel</button>
+        </div>
+
+        <!-- message -->
+        <div id="message"></div>
+        
+        <!-- pdf viewer -->
+        <div id="pdfviewer"></div>
+    
+        <!-- console output -->
+        <div id="texconsole">
+            <h4>Console output:</h4>
+            <pre id="texconsoleoutput"></pre>
+        </div>
+    </div>
+
+    <script src="editor.js"></script>
+    <script>init_html();</script>
+</body>
+</html>
