@@ -5,6 +5,7 @@ Edit and compile templates using the online editor:
 * **Abschlussarbeit:** [fhswf.github.io/LaTeX-Editor/Abschlussarbeit](https://fhswf.github.io/LaTeX-Editor/Abschlussarbeit)
 * **Anschreiben:** [fhswf.github.io/LaTeX-Editor/Anschreiben](https://fhswf.github.io/LaTeX-Editor/Anschreiben)
 * **Ausarbeitung:** [fhswf.github.io/LaTeX-Editor/Ausarbeitung](https://fhswf.github.io/LaTeX-Editor/Ausarbeitung)
+* **Exposee:** [fhswf.github.io/LaTeX-Editor/Exposee](https://fhswf.github.io/LaTeX-Editor/Exposee)
 * **Konferenzseminar:** [fhswf.github.io/LaTeX-Editor/Konferenzseminar](https://fhswf.github.io/LaTeX-Editor/Konferenzseminar)
 * **Poster-Beispiel:** [fhswf.github.io/LaTeX-Editor/Poster-Beispiel](https://fhswf.github.io/LaTeX-Editor/Poster-Beispiel)
 * **Poster:** [fhswf.github.io/LaTeX-Editor/Poster](https://fhswf.github.io/LaTeX-Editor/Poster)
